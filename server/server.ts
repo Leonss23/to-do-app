@@ -1,8 +1,9 @@
 import express from "express";
-import mongoose from "mongoose";
-mongoose.set("strictQuery", false);
+import connectDB from "./config/database";
 import PORT from "./config/env";
 import router from "./routes";
+
+const dbcon = connectDB();
 
 export default class Server {
 	PORT: number;
@@ -11,15 +12,16 @@ export default class Server {
 	constructor() {
 		this.app = express();
 		this.PORT = PORT;
+	}
 
+	start() {
+		// this.database = connectDB();
 		this.middlewares();
-		mongoose.connect(process.env.MONGO_URI as string);
-
 		this.app.use("/", router);
 		this.listen();
 	}
 
-	async middlewares() {}
+	middlewares() {}
 
 	listen() {
 		this.app.listen(this.PORT, () => {
