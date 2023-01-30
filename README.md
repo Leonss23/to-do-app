@@ -1,4 +1,6 @@
-# To Do App (For learning and showcase purposes)
+# To Do App
+
+### For learning and showcase purposes
 
 ## Tech stack
 
