@@ -1,6 +1,6 @@
 # To Do App
 
-### For learning and showcase purposes
+**For learning and showcase purposes (Not finished yet)**
 
 ## Tech stack
 
@@ -22,3 +22,10 @@
 - Vite
 - Rome (linting and formatting for TS/JS/JSX & JSON).
 - Repository Pattern
+
+## To-Do
+
+- All API endpoints.
+- JWT auth
+- Frontend app
+- DummyJSON impl.
