@@ -4,6 +4,7 @@ import PORT from "./config/env";
 import router from "./routes";
 
 const dbcon = connectDB();
+console.log(dbcon);
 
 export default class Server {
 	PORT: number;
@@ -14,7 +15,7 @@ export default class Server {
 		this.PORT = PORT;
 	}
 
-	start() {
+	start() { 	
 		// this.database = connectDB();
 		this.middlewares();
 		this.app.use("/", router);
