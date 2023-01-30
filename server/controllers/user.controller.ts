@@ -12,7 +12,6 @@ export async function getUsers(req: Request, res: Response) {
 
 export async function newUser(req: Request, res: Response) {
 	try {
-		console.log(req.body);
 		const newUser = await userRepository.create(req.body);
 		res.status(200).json({ data: newUser });
 	} catch (error) {
