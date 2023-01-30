@@ -7,6 +7,7 @@
   - MongoDB
   - React
 - Bootstrap
+- TypeScript
 
 ## Features
 
@@ -16,7 +17,6 @@
 
 ## Other stuff used
 
-- TypeScript
 - Vite
 - Rome (linting and formatting for TS/JS/JSX & JSON).
 - Repository Pattern
