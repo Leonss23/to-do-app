@@ -1,6 +1,8 @@
 # To Do App
 
-**For learning and showcase purposes (Not finished yet)**
+**(Not finished yet)**
+
+A small project for showcase and learning purposes (MERN stack, Typescript, RestAPIs, good design and practices, plus other important/useful knowledge and skills).
 
 ## Tech stack
 
@@ -8,24 +10,15 @@
   - Express (Nodejs)
   - MongoDB
   - React
-- Bootstrap
+- Tailwind
 - TypeScript
-
-## Features
-
-- RestAPI
-- JWT auth
-- DummyJSON external API integration.
-
-## Other stuff used
-
 - Vite
-- Rome (linting and formatting for TS/JS/JSX & JSON).
-- Repository Pattern
 
-## To-Do
+## Not yet implemented features
 
-- All API endpoints.
+- API endpoints
+  - User
+  - Auth
 - JWT auth
 - Frontend app
-- DummyJSON impl.
+- DummyJSON integration.
