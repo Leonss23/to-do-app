@@ -10,8 +10,8 @@ A small project for showcase and learning purposes (MERN stack, Typescript, Rest
   - Express (Nodejs)
   - MongoDB
   - React
-- Tailwind
 - TypeScript
+- Tailwind
 - Vite
 
 ## Not yet implemented features
@@ -22,3 +22,5 @@ A small project for showcase and learning purposes (MERN stack, Typescript, Rest
 - JWT auth
 - Frontend app
 - DummyJSON integration.
+
+Note: The app's structure/design may have unnecessary abstraction/complexity, it's intentional.
