@@ -2,7 +2,7 @@
 
 **(Not finished yet)**
 
-A small project for showcase and learning purposes (MERN stack, Typescript, RestAPIs, good design and practices, plus other important/useful knowledge and skills).
+A small project for showcase and learning purposes (MERN stack, Typescript, RestAPIs, JWT auth, app design patterns & practices (Repository pattern used), and other relevant skills).
 
 ## Tech stack
 
@@ -16,11 +16,6 @@ A small project for showcase and learning purposes (MERN stack, Typescript, Rest
 
 ## Not yet implemented features
 
-- API endpoints
-  - User
-  - Auth
-- JWT auth
+- To-Do API
+- JWT Authorization
 - Frontend app
-- DummyJSON integration.
-
-Note: The app's structure/design may have unnecessary abstraction/complexity, it's intentional.
