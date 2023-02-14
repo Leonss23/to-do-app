@@ -1,5 +1,4 @@
 import bcrypt from "bcrypt";
-import { FilterQuery, Types, _FilterQuery } from "mongoose";
 import { userModel, User } from "../models/user.model";
 
 class UserRepository {
@@ -10,7 +9,7 @@ class UserRepository {
   async find(filter: {
     email?: string;
     password?: string;
-    _id?: string | number | Types.ObjectId;
+    _id?: string | number;
   }) {
     return await userModel.findOne(filter).exec();
   }

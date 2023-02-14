@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import { userRepository } from "../repositories";
 import { createToken } from "../config/jwt";
-import { create } from "domain";
 
 export async function loginUser(req: Request, res: Response) {
   const { email, password } = req.body;
